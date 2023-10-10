@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="QuizApp.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>Quiz App</h1>
+        <div id="Questions" class="question-container">Question goes here</div>
+        <div id="AnswerOptions" class="btn-container">
+            <!-- Answer buttons will be added dynamically here -->
+        </div>
+        <button id="prev-button" class="btn" onclick="prevQuestion()">Previous</button>
+        <button id="next-button" class="btn" onclick="nextQuestion()">Next</button>
+        <button id="submit-button" class="btn" onclick="showResults()">Submit</button>
+        <button id="restart-button" class="btn" onclick="restartQuiz()">Restart Quiz</button>
+    </div>
+
+    <script src="QuizApp.js"></script>
+</body>
+</html>
